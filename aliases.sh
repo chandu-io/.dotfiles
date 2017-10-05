@@ -12,6 +12,11 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
 
+alias npi='npm i --no-optional'
+alias npu='npm u'
+alias nps='npm start'
+alias npt='npm test'
+
 # git aliases
 alias gg='git status -s'
 alias gs='git status'
@@ -29,4 +34,6 @@ alias gds='git diff --staged'
 alias stage='git add .'
 alias unstage='git reset HEAD .'
 alias discard='git checkout -- .'
+alias dry-clean='git clean -ndf'
+alias clean='git clean -df'
 alias stash='git stash save -u'
